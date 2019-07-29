@@ -25,7 +25,7 @@ module.exports = {
 		new CleanWebpackPlugin(),
 		new HtmlWebpackPlugin({
 			template: './assets/index.html',
-			title: 'Currency Mask',
+			title: 'Sandbox',
 		}),
 		new webpack.HotModuleReplacementPlugin(),
 	]
